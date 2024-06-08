@@ -22,7 +22,7 @@ function generateQuiz() {
     };
 
     // API 요청
-    fetch('https://cors-anywhere.herokuapp.com/https://clovastudio.stream.ntruss.com/testapp/v1/chat-completions/HCX-003', {
+    fetch('https://corsproxy.io/?headers=X-NCP-APIGW-API-KEY=1IzboF2LvYV6qaFv6qSwx1Yy1VU4xmPQb0VaNRZV&target=https://clovastudio.stream.ntruss.com/testapp/v1/chat-completions/HCX-003', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
