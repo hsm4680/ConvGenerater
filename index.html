@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>연인 간 테스트 앱</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>인공지능 클로바가 만들어주는 대화주제!</h1>
+    <div class="input-container">
+      <input type="text" id="inputCategory" placeholder="카테고리를 입력하세요 (예:
+       감성, 재미, 19금)">
+      <button onclick="generateQuiz()">질문 생성</button>
+    </div>
+    <div class="output-container">
+      <div id="outputQuiz"></div>
+      <div class="share-container">
+        <a href="#" id="shareLink" class="share-link" style="display: none;">공유하기</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

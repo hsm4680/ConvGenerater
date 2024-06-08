@@ -1,0 +1,62 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f8e5e5;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+    color: #ff69b4;
+  }
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .output-container {
+    text-align: center;
+  }
+  .question {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f8e5e5;
+    border-radius: 10px;
+  }
+  .share-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .share-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff69b4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
